@@ -27,6 +27,12 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "settings": {
+        "react": {
+            "version": "detect" // oder spezifische React-Version, z.B. "16.8"
+        }
+    },
     "rules": {
+        // Hier können weitere ESLint-Regeln hinzugefügt oder angepasst werden
     }
 }
